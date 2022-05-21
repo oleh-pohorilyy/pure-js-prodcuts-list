@@ -1,0 +1,34 @@
+* {
+	margin: 0;
+	padding: 0;
+	outline: none;
+}
+
+html, body {
+	height: 100%;
+	overflow: hidden;
+}
+
+body {
+	background-color: #232323;
+}
+
+#products {
+	margin: 0 auto;
+	max-width: 1200px;
+	height: 100%;
+	overflow-y: auto;
+
+	background-color: #484848;
+
+	display: flex;
+	flex-direction: column;
+	gap: 8px;
+	padding: 8px;
+	box-sizing: border-box;
+}
+
+.product {
+	min-height: 50px;
+	background-color: red;
+}
